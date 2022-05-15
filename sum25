@@ -1,0 +1,19 @@
+# Write a program to find given string length(With out String class ).
+
+package Assessment;
+
+import java.util.Scanner;
+
+public class Stringlen {
+    public static void main(String args[]){
+        Scanner s=new Scanner(System.in);
+        System.out.println("enter the string:");
+        String str=s.next();
+        char c[]=str.toCharArray();
+        int a = 0;
+        for(int i:c){
+            a++;
+        }
+        System.out.println(a);
+    }
+}
